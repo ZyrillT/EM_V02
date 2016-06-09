@@ -1,4 +1,4 @@
-﻿/* BG Effect intermediate and bigger only */
+/* BG Effect intermediate and bigger only */
 body#star-01 #section-01 {background-image:url('../images-star-01/star-pic-main-01.jpg');}
 body#star-01 #section-02 .sticky-bg-container {background-image: url("../images-star-01/star-pic-main-02.jpg");}
 body#star-01 #section-04 .sticky-bg-container {background-image: url("../images-star-01/star-pic-main-03.jpg");}
@@ -131,7 +131,7 @@ header nav ul li a.inactive-link {border-bottom-color:#ffffff;color:#000;}
 header nav#cssmenu {float:right;}
 
 /* Sticky Text */
-.wrapper article.scrollTextOnSticky {width: 40%; padding: 20px;}
+.wrapper article.scrollTextOnSticky {width: 50%; padding: 20px;}
 .wrapper article.scrollTextOnSticky.right {background-color: black;float:right;color:white;background-color: rgba(0, 0, 0, 0.8);}
 .wrapper article.scrollTextOnSticky.left {background-color: rgba(255, 255, 255, 0.7);}
 
