@@ -1,0 +1,221 @@
+/*    Mixin the media Queries    */
+/* Colors */
+/* Fonts */
+@media only screen and (min-width: 280px) {
+  nav.sticky-navigation {
+    font-family: TheSansPlain;
+    font-size: 22px;
+    line-height: 40px; }
+
+  div.text-on-image h1 {
+    font-family: TheSerifB3-Light-Italic;
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+    font-weight: 600; }
+
+  div.text-out-image h1 {
+    font-family: TheSerifB3-Light-Italic;
+    font-size: 34px;
+    line-height: 44px;
+    color: black;
+    text-shadow: none; }
+
+  /*SSD only */
+  div.text-on-image.smaller h1 {
+    font-family: TheSerifB3-Light-Italic;
+    font-size: 20px;
+    line-height: 28px; }
+
+  div.text-out-image.smaller h1 {
+    font-family: TheSerifB3-Light-Italic;
+    font-size: 28px;
+    line-height: 32px; }
+
+  div.text-on-image h2 {
+    font-family: TheSansPlain;
+    font-size: 18px;
+    color: white; }
+
+  div.text-out-image h2 {
+    font-family: TheSansPlain;
+    font-size: 18px;
+    line-height: 28px;
+    color: black; }
+
+  /*SSD only */
+  div.weitere-stars h1 {
+    font-family: TheSerifB3-Light-Italic;
+    font-size: 28px;
+    line-height: 38px; }
+
+  div.weitere-stars section {
+    font-family: TheSerifB3-Light-Italic;
+    font-size: 22px;
+    line-height: 32px; }
+
+  h1.main-page {
+    font-family: TheSansPlain;
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);}
+
+  .main .scrollTextOnSticky h1 {
+    font-family: TheSerifPlainItalic;
+    font-size: 30px;
+    line-height: 38px;
+    color: black; }
+
+  h2.main-page {
+    font-family: TheSerifB6-Semi-Bold;
+    font-size: 45px;
+    line-height: 50px;
+    color: white;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);}
+
+  article.interview h1 {
+    font-family: TheSerifPlainItalic;
+    font-size: 34px;
+    line-height: 44px;
+    color: black;
+    text-shadow: none; }
+
+  div.impressum-overlay-container h1 {
+    font-family: TheSerifSemiboldItalic;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center; }
+
+  .homepage-first-content-slider div.caption, .ssd-slider section, .homepage-fullscreen-slider div.caption {
+    font-family: TheSerifPlain;
+    font-size: 18px;
+    line-height: 22px; }
+
+  .homepage-first-content-slider div.caption {
+    font-size: 18px; }
+
+  div.text-scroll-down {
+    font-family: TheSansPlain;
+    font-size: 18px;
+    line-height: 24px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+    color: white; }
+
+  article.interview, article.scrollTextOnSticky {
+    font-family: TheSerifPlain;
+    font-size: 18px;
+    line-height: 26px; }
+
+  aside.interview.left header.small-screen-only {
+    font-family: TheSerifPlain;
+    font-size: 26px;
+    line-height: 28px;
+    color: #015; }
+
+  .movie-still footer {
+    font-family: TheSerifPlain;
+    font-size: 18px;
+    line-height: 22px;
+    color: #666; }
+
+  section.question {
+    font-family: TheSerifB6-Semi-Bold;
+    color: #015; }
+
+  article.portrait {
+    font-family: TheSerifPlain;
+    font-size: 18px;
+    line-height: 30px; }
+
+  article.portrait strong, article.portrait b {
+    font-family: TheSansPlain; }
+
+  aside.portrait header, article.portrait header, article.scrollTextOnSticky header, article.interview header {
+    font-family: TheSerifPlain;
+    font-size: 30px;
+    line-height: 36px; }
+
+  aside.portrait article.social-links header {
+    font-size: 20px;
+    font-family: TheSansPlain;
+    line-height: 32px;
+    font-weight: 600; }
+
+  .overlay-link {
+    font-family: TheSansPlain;
+    font-size: 18px; }
+
+  .footer-container footer a {
+    font-family: TheSansPlain;
+    font-size: 18px;
+    line-height: 22px;
+    color: #595959; }
+
+  .impressum-overlay-content {
+    font-family: TheSansPlain;
+    font-size: 12px;
+    line-height: 16px; } }
+@media only screen and (min-width: 400px) {
+  .overlay-slider {
+    min-width: 380px; } }
+@media only screen and (min-width: 500px) {
+  .overlay-slider {
+    min-width: 480px; } }
+@media only screen and (min-width: 600px) {
+  .overlay-slider {
+    min-width: 580px; } }
+@media only screen and (min-width: 700px) {
+  .overlay-slider {
+    min-width: 680px; } }
+@media only screen and (min-width: 768px) {
+  div.text-on-image h1 {
+    font-size: 48px;
+    line-height: 58px; }
+
+  div.text-on-image.smaller h1 {
+    font-size: 36px;
+    line-height: 40px; }
+
+  h1.main-page {
+    font-size: 26px;
+    line-height: 32px; }
+
+  div.weitere-stars h1 {
+    font-size: 36px;
+    line-height: 40px; }
+
+  .main .scrollTextOnSticky h1 {
+    font-size: 36px;
+    line-height: 44px; }
+
+  h2.main-page {
+    font-size: 85px;
+    line-height: 90px; }
+
+  div.impressum-overlay-container h1 {
+    text-align: left; }
+
+  article.interview, article.portrait, article.scrollTextOnSticky {
+    font-size: 20px;
+    line-height: 30px; }
+
+  article.portrait header, article.scrollTextOnSticky header, article.interview header {
+    font-size: 36px;
+    line-height: 40px; }
+
+  .homepage-fullscreen-slider div.slick-slide div.caption {
+    font-size: 36px;
+    line-height: 48px; }
+
+  .homepage-first-content-slider div.caption {
+    font-size: 18px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);}
+
+  .overlay-link {
+    font-size: 22px; }
+
+  .impressum-overlay-content {
+    font-family: TheSansPlain;
+    font-size: 18px;
+    line-height: 32px; } }

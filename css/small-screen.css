@@ -1,0 +1,634 @@
+@charset "UTF-8";
+.txt-std-big {
+  font-family: TheSerifB6-Semi-Bold, Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-weight: 400; }
+
+.txt-std-medium {
+  font-family: TheSerifB6-Semi-Bold, Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-size: 1.05em;
+  line-height: 1.3em;
+  font-weight: 400; }
+
+.txt-std-small {
+  font-family: TheSerifB6-Semi-Bold, Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-size: 0.9em;
+  line-height: 1.1em;
+  font-weight: 400; }
+
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+html {
+  font-size: 1em;
+  line-height: 150%;
+  font-family: TheSerifPlain; }
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+body {
+  font-size: 19px;
+  margin: 0px;
+  padding: 0px;
+  color: #015; }
+
+.wrapper {
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0; }
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+/* ==============
+    MOBILE: Menu
+   ============== */
+/* ==============
+    MOBILE: Main
+   ============== */
+/* ===============
+    ALL: IE Fixes
+   =============== */
+.ie7 .title {
+  padding-top: 20px; }
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* Main */
+
+/* bluewin Logo mobile */
+
+img.logo {width:30px;height:auto;border:0;float:right;margin-right:10px;}
+img.chevron {border:0;float:left;margin-left:10px;margin-top:5px;}
+div#section-01 {margin-top:59px;}
+div#section-00 {position:fixed;opacity:0.975;background-color:white;z-index:10;border-bottom:1px solid #bbb;}
+div#section-00 > header {position:relative;padding:9px 0 0 0;}
+
+body.no-scrolling {
+  overflow: hidden; }
+
+.main-container {
+  float: Left;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll; }
+
+.wrapper {
+  position: inherit;
+  z-index: 2; }
+
+.wrapper article.scrollTextOnSticky {
+  position: inherit;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto; }
+
+.wrapper article.scrollTextOnSticky.left {
+  background-color: white;
+  float: left; }
+
+.wrapper article.scrollTextOnSticky.right {
+  background-color: white;
+  float: right; }
+
+/* Overlay */
+#section-overlay, #section-impressum-overlay {
+  display: none;
+  position: fixed;
+  opacity: 1;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 15; }
+
+#section-impressum-overlay {
+  overflow: auto; }
+
+#section-impressum-overlay {
+  top: auto;
+  bottom: 0px; }
+
+#section-overlay:after, #section-impressum-overlay:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.875; }
+
+#section-impressum-overlay:after {
+  background-color: white;
+  opacity: 0.975; }
+
+#section-overlay div.main {
+  position: relative; }
+
+/* Padding Fließtext nur mobile */
+article.scrollTextOnSticky.left,
+article.scrollTextOnSticky.right,
+article.interview,
+.main-container.small-screen-only,
+article.portrait.left,
+aside.interview.left,
+div.impressum-overlay-container {
+  padding: 20px 20px; }
+
+/*  Sticky Navigation */
+
+header nav ul li a {font-family:TheSansPlain;color:#000;}
+header nav ul li a.active-link {color:#000;}
+header nav ul li a.inactive-link {color:#000;}
+
+#cssmenu > ul li a {text-align:center;}
+
+
+/* Detail  */
+#section-02 .sticky-bg-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+#section-04 .sticky-bg-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.sticky-bg-container {
+  position: relative;
+  float: left; }
+
+#section-07 {
+  background-position: center; }
+
+#section-10 {
+  background-color: #fff;
+  padding-bottom: 30px; }
+
+#section-11 {
+  background-color: #000;
+  display: none; }
+
+#section-12 {
+  background-color: #fff;
+  padding-bottom: 30px; }
+
+/* Main Background Images  */
+body#star-01 #section-01 {
+  background-image: url("../images-star-01/star-pic-main-01-ssd.jpg"); }
+
+body#star-01 #section-02 .sticky-bg-container {
+  background-image: url("../images-star-01/star-pic-main-02-ssd.jpg"); }
+
+body#star-01 #section-04 .sticky-bg-container {
+  background-image: url("../images-star-01/star-pic-main-03-ssd.jpg"); }
+
+body#star-01 #section-05 {
+  background-image: url("../images-star-01/star-pic-main-04-ssd.jpg"); }
+
+body#star-01 #section-07 {
+  background-image: url("../images-star-01/star-pic-main-06-ssd.jpg"); }
+
+body#star-02 #section-01 {
+  background-image: url("../images-star-02/star-pic-main-01-ssd.jpg"); }
+
+body#star-02 #section-02 .sticky-bg-container {
+  background-image: url("../images-star-02/star-pic-main-02-ssd.jpg"); }
+
+body#star-02 #section-04 .sticky-bg-container {
+  background-image: url("../images-star-02/star-pic-main-03-ssd.jpg"); }
+
+body#star-02 #section-05 {
+  background-image: url("../images-star-02/star-pic-main-04-ssd.jpg"); }
+
+body#star-02 #section-07 {
+  background-image: url("../images-star-02/star-pic-main-06-ssd.jpg"); }
+
+body#star-03 #section-01 {
+  background-image: url("../images-star-03/star-pic-main-01-ssd.jpg"); }
+
+body#star-03 #section-02 .sticky-bg-container {
+  background-image: url("../images-star-03/star-pic-main-02-ssd.jpg"); }
+
+body#star-03 #section-04 .sticky-bg-container {
+  background-image: url("../images-star-03/star-pic-main-03-ssd.jpg"); }
+
+body#star-03 #section-05 {
+  background-image: url("../images-star-03/star-pic-main-04-ssd.jpg"); }
+
+body#star-03 #section-07 {
+  background-image: url("../images-star-03/star-pic-main-06-ssd.jpg"); }
+
+body#star-04 #section-01 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-04/star-pic-main-01-ssd.jpg"); }
+
+body#star-04 #section-02 .sticky-bg-container {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-04/star-pic-main-02-ssd.jpg"); }
+
+body#star-04 #section-04 .sticky-bg-container {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-04/star-pic-main-03-ssd.jpg"); }
+
+body#star-04 #section-05 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-04/star-pic-main-04-ssd.jpg"); }
+
+body#star-04 #section-07 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-04/star-pic-main-06-ssd.jpg"); }
+
+body#star-05 #section-01 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-05/star-pic-main-01-ssd.jpg"); }
+
+body#star-05 #section-02 .sticky-bg-container {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-05/star-pic-main-02-ssd.jpg"); }
+
+body#star-05 #section-04 .sticky-bg-container {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-05/star-pic-main-03-ssd.jpg"); }
+
+body#star-05 #section-05 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-05/star-pic-main-04-ssd.jpg"); }
+
+body#star-05 #section-07 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-05/star-pic-main-06-ssd.jpg"); }
+
+body#star-06 #section-01 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-06/star-pic-main-01-ssd.jpg"); }
+
+body#star-06 #section-02 .sticky-bg-container {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-06/star-pic-main-02-ssd.jpg"); }
+
+body#star-06 #section-04 .sticky-bg-container {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-06/star-pic-main-03-ssd.jpg"); }
+
+body#star-06 #section-05 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-06/star-pic-main-04-ssd.jpg"); }
+
+body#star-06 #section-07 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-06/star-pic-main-06-ssd.jpg"); }
+
+body#star-07 #section-01 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-07/star-pic-main-01-ssd.jpg"); }
+
+body#star-07 #section-02 .sticky-bg-container {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-07/star-pic-main-02-ssd.jpg"); }
+
+body#star-07 #section-04 .sticky-bg-container {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-07/star-pic-main-03-ssd.jpg"); }
+
+body#star-07 #section-05 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-07/star-pic-main-04-ssd.jpg"); }
+
+body#star-07 #section-07 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-07/star-pic-main-06-ssd.jpg"); }
+
+body#star-08 #section-01 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-08/star-pic-main-01-ssd.jpg"); }
+
+body#star-08 #section-02 .sticky-bg-container {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-08/star-pic-main-02-ssd.jpg"); }
+
+body#star-08 #section-04 .sticky-bg-container {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-08/star-pic-main-03-ssd.jpg"); }
+
+body#star-08 #section-05 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-08/star-pic-main-04-ssd.jpg"); }
+
+body#star-08 #section-07 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-08/star-pic-main-06-ssd.jpg"); }
+
+body#star-09 #section-01 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-01-ssd.jpg"); }
+
+body#star-09 #section-02 .sticky-bg-container {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-02-ssd.jpg"); }
+
+body#star-09 #section-04 .sticky-bg-container {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-03-ssd.jpg"); }
+
+body#star-09 #section-05 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-04-ssd.jpg"); }
+
+body#star-09 #section-07 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-06-ssd.jpg"); }
+
+body#star-09 #section-01 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-01-ssd.jpg"); }
+
+body#star-09 #section-02 .sticky-bg-container {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-02-ssd.jpg"); }
+
+body#star-09 #section-04 .sticky-bg-container {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-03-ssd.jpg"); }
+
+body#star-09 #section-05 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-04-ssd.jpg"); }
+
+body#star-09 #section-07 {
+  background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-06-ssd.jpg"); }
+
+/* Show Pictures in mobile */
+#section-02 .sticky-bg-container,
+#section-04 .sticky-bg-container,
+#section-05.main-container,
+#section-07 {
+  padding: 0 0px 30px 0px;
+  background-clip: content-box;
+  box-sizing: border-box; }
+
+#section-05.main-container {
+  padding-bottom: 0px; }
+
+div.full-screen {
+  margin-bottom: 30px; }
+
+div#section-05, div#section-07, div#section-09, div#section-02 div.full-screen {
+  margin-bottom: 0; }
+
+/*Ausnahmen von der Regel */
+div.footer-container footer div {
+  width: 100%;
+  text-align: center; }
+
+/* main Page (top) */
+div.wrapper.fullheight {
+  position: relative; }
+
+div.main-page h1, div.main-page h2, div.arrow-down, div.text-scroll-down {
+  position: absolute; }
+
+div.main-page h1 {
+  top: 14%;
+  left: 40px; }
+
+div.main-page h2 {
+  top: 15%;
+  left: 40px; }
+
+div.arrow-down, div.text-scroll-down {
+  bottom: 20px; }
+
+div.arrow-down {
+  background-image: url("../img/arrow-down.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10px;
+  height: 81px;
+  left: 0px; }
+
+div.text-scroll-down {
+  width: auto;
+  height: auto;
+  left: 15px;
+  padding-bottom: 60px; }
+
+/* Structure Article, Interview and Portrait */
+div.text-on-image {
+  position: relative;
+  left: 0px;
+  margin-top: 25%; }
+
+.main.portrait {
+  padding-top: 40px; }
+
+.main.weitere-stars {
+  padding-top: 50px; }
+
+article.interview section, article.portrait section {
+  padding: 0 0 10px 0; }
+
+article.interview div.movie-still footer {
+  padding: 10px 0 40px 0; }
+
+aside.interview, aside.portrait {
+  padding: 0 0;
+  box-sizing: border-box; }
+
+aside.interview.left {
+  background-color: #e8e8e8; }
+
+article.social-links {
+  width: 100%;
+  position: relative; }
+
+article.social-links section {
+  width: 90%;
+  margin-left: 12.5%;
+  position: relative; }
+
+article.social-links section a {
+  margin-left: 0.75vw; }
+
+aside.interview.left article {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 50%;
+  float: left; }
+
+aside.left article section {
+  max-width: 135px;
+  color: #595959; }
+
+article.portrait, .center {
+  text-align: left; }
+
+aside.portrait header, article.portrait header, article.interview header, article.scrollTextOnSticky header {
+  padding-bottom: 10px;
+  border-bottom: 0px solid black;
+  border-bottom-style: double;
+  margin-bottom: 20px; }
+  
+article.header-only header {padding:20px 0 0 0; }
+  
+
+aside.portrait article.social-links header {
+  padding: 0;
+  border: 0; }
+
+depreciated.article.portrait section {
+  padding-top: 40px;
+  border-bottom: 3px solid black;
+  border-bottom-style: double; }
+
+/* Footer */
+.footer-container footer {
+  display: block;
+  width: 100%;
+  padding: 20px 0; }
+
+div.wrapper.impressum-overlay-container {
+  position: relative; }
+
+/* Sliders */
+.homepage-fullscreen-slider img {
+  width: 100%;
+  height: auto; }
+
+.homepage-fullscreen-slider {
+  background-color: black; }
+
+.homepage-second-content-slider, .overlay-slider {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  padding-bottom: 0px;
+  margin-bottom: 90px;
+  padding-top: 30px;
+  min-width: 300px; }
+
+.homepage-second-content-slider article header img, .overlay-slider article header img {
+  position: relative;
+  width: auto;
+  margin: auto; }
+
+.homepage-second-content-slider article section, .overlay-slider article section {
+  color: white;
+  text-align: center; }
+
+.ssd-slider .slick-slide header img {
+  width: 100%;
+  height: auto; }
+
+.ssd-slider .slick-track {
+  background-color: black;
+  padding-top: 50px; }
+
+.ssd-slider .slick-slide section {
+  color: white;
+  padding: 20px;
+  box-sizing: border-box; }
+
+.ssd-slider .slick-slide section span {
+  display: block;
+  float: left;
+  width: 40px;
+  height: 40px; }
+  
+/* classes for video slides  */
+
+.iframe640 {width:100%;height:260px;}
+.iframe480 {width:100%;height:260px;}
+
+
+/* */
+.homepage-first-content-slider .slick-slide img {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;}
+
+.homepage-first-content-slider .slick-slide, .homepage-fullscreen-slider .slick-track {
+  overflow: hidden;
+  height: 100%; }
+
+.homepage-first-content-slider .slick-track {
+  background-color: black;
+  padding-top: 0px; }
+
+.homepage-first-content-slider div.caption, .homepage-fullscreen-slider div.caption {
+  color: white;
+  padding: 20px;
+  box-sizing: border-box; }
+
+.homepage-first-content-slider div.caption span, .homepage-fullscreen-slider div.caption span {
+  display: block;
+  float: left;
+  width: 40px;
+  height: 60px; }
+
+.homepage-fullscreen-slider .slick-track {
+  background-color: black;
+  padding: 60px 0px 60px 0px; }
+
+/* Heading - find responsive features in font-size-mixin */
+h1 {
+  font-family: TheSerifB6-Semi-Bold;
+  width: auto;
+  height: auto;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  color: white; }
+
+h2.header-on-image {
+  position: relative;
+  bottom: 20px;
+  color: white; }
+
+.main .scrollTextOnSticky h1 {
+  text-shadow: none;
+  color: black; }
+
+div.impressum-overlay-container h1 {
+  text-shadow: none;
+  color: black; }
+
+div.weitere-stars h1 {
+  width: 100%;
+  text-align: center; }
+
+/* Text style for "“Ich kann mit" */
+/*  Fonts */
+/*  Links */
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+.overlay-slider article:hover section a {
+  text-decoration: underline; }
+
+article.social-links section a {
+  display: block;
+  float: left;
+  margin-right: 4px;
+  border: 0px solid green; }
+
+.overlay-link {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  color: white;
+  z-index: 3; }
+
+.overlay-link.overview {
+  right: auto;
+  left: 10px; }
+
+.overlay-link.close-overlay {
+  z-index: inherit; }
+
+.footer-container footer a {
+  display: block;
+  width: 100%; }
+
+div.weitere-stars a {
+  color: white; }
+
+.overlay-link.open-overlay {
+  display: none; }
+
+/*  IMGs */
+aside.interview img {
+  max-width: 100%;
+  height: auto; }
+
+img.image-portrait {
+  width: 90%;
+  height: auto; }
+
+/* Helper  */
+.gte-intermediate-screen, .gte-xl-screen {
+  display: none; }
+
+.small-screen-only, .slick-slide img.small-screen-only {
+  display: block; }
+
+/* EOF*/

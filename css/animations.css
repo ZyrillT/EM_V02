@@ -1,0 +1,36 @@
+/* Variables - CI Colors */
+/* Test a Mixing */
+/* Animations */
+@keyframes slideNavOut {
+  100% {
+    transform: translateX(0px); } }
+.not-used.nav-out {
+  animation-name: slideNavOut;
+  animation-duration: 1000ms;
+  animation-fill-mode: both; }
+
+@keyframes slideNavIn {
+  100% {
+    transform: translateX(-200px); } }
+.not-used.sticky-navigation {
+  animation-name: slideNavIn;
+  animation-duration: 1000ms;
+  animation-fill-mode: both; }
+
+.sticky-navigation {
+  transition: transform ease-in-out 0.2s;
+  -webkit-transition: -webkit-transform ease-in-out 0.5s; }
+
+.sticky-navigation.nav-in {
+  transform: translate(-140px);
+  -webkit-transform: translate(-140px); }
+
+.sticky-navigation:hover {
+  transform: translate(-140px);
+  -webkit-transform: translate(-140px); }
+
+.sticky-navigation:hover ul {
+  text-align: right; }
+
+/* Transitions */
+/* EOF */
