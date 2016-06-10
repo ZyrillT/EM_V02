@@ -198,8 +198,11 @@ body#star-01 #section-04 .sticky-bg-container {
 body#star-01 #section-05 {
   background-image: url("../images-star-01/star-pic-main-04-ssd.jpg"); }
 
-body#star-01 #section-07 {
-  background-image: url("../images-star-01/star-pic-main-06-ssd.jpg"); }
+body#star-01 #section-06 {
+  background-image: url("../images-star-01/star-pic-main-06b-ssd.jpg"); }
+  
+body#star-01 #section-regelaenderungen {
+  background-image:url('../images-star-01/schiri_section_regelaenderungen-ssd.jpg');} 
 
 body#star-02 #section-01 {
   background-image: url("../images-star-02/star-pic-main-01-ssd.jpg"); }
@@ -335,6 +338,8 @@ body#star-09 #section-05 {
 
 body#star-09 #section-07 {
   background-image: url("http://bluewin-longform.s3.eu-central-1.amazonaws.com/longform/images-star-09/star-pic-main-06-ssd.jpg"); }
+  
+
 
 /* Show Pictures in mobile */
 #section-02 .sticky-bg-container,

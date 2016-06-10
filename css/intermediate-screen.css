@@ -1,9 +1,9 @@
-﻿/* BG Effect intermediate and bigger only */
+/* BG Effect intermediate and bigger only */
 body#star-01 #section-01 {background-image:url('../images-star-01/star-pic-main-01.jpg');}
 body#star-01 #section-02 .sticky-bg-container {background-image: url("../images-star-01/star-pic-main-02.jpg");}
 body#star-01 #section-04 .sticky-bg-container {background-image: url("../images-star-01/star-pic-main-03.jpg");}
 body#star-01 #section-05 {background-image:url('../images-star-01/star-pic-main-04.jpg');}
-body#star-01 #section-07 {background-image:url('../images-star-01/star-pic-main-06.jpg');}
+body#star-01 #section-06b {background-image:url('../images-star-01/star-pic-main-06b.jpg');}
 body#star-01 #section-regelaenderungen {background-image:url('../images-star-01/schiri_section_regelaenderungen.jpg');}
 
 
