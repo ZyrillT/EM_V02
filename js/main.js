@@ -180,30 +180,42 @@ function K7InitScroll()
 										
 						// Show position in sticky top Navigation with class toggle //
 
-						new ScrollMagic.Scene({triggerElement: "#section-01", triggerHook: 'onCenter', offset: '1'})
-										.setClassToggle("#section-01-link", "active-link") // add class toggle
+						new ScrollMagic.Scene({triggerElement: "#section-03", triggerHook: 'onCenter', offset: '1'})
+										.setClassToggle("#section-03-link", "active-link") // add class toggle
 										// add indicators (requires plugin).addIndicators() 
 										.addTo(controller);
-						new ScrollMagic.Scene({triggerElement: "#section-02", triggerHook: 'onCenter'})
-										.setClassToggle("#section-01-link", "inactive-link") 
+						new ScrollMagic.Scene({triggerElement: "#section-03b", triggerHook: 'onCenter'})
+										.setClassToggle("#section-03-link", "inactive-link") 
 										// add indicators (requires plugin).addIndicators() 
 										.addTo(controller);
-						new ScrollMagic.Scene({triggerElement: "#section-02", triggerHook: 'onCenter'})
-										.setClassToggle("#section-02-link", "active-link") 
+						new ScrollMagic.Scene({triggerElement: "#section-08b", triggerHook: 'onCenter'})
+										.setClassToggle("#section-08b-link", "active-link") 
 										// add indicators (requires plugin).addIndicators() 
 										.addTo(controller);
-						new ScrollMagic.Scene({triggerElement: "#section-03", triggerHook: 'onCenter'})
-										.setClassToggle("#section-02-link", "inactive-link") 
+						new ScrollMagic.Scene({triggerElement: "#section-08c", triggerHook: 'onCenter'})
+										.setClassToggle("#section-08b-link", "inactive-link") 
 										// add indicators (requires plugin).addIndicators() 
 										.addTo(controller);
-						new ScrollMagic.Scene({triggerElement: "#section-06", triggerHook: 'onCenter'})
-										.setClassToggle("#section-06-link", "active-link") 
+						new ScrollMagic.Scene({triggerElement: "#section-08d", triggerHook: 'onCenter'})
+										.setClassToggle("#section-08d-link", "active-link") 
 										// add indicators (requires plugin).addIndicators() 
 										.addTo(controller);										
 						new ScrollMagic.Scene({triggerElement: "#section-07", triggerHook: 'onCenter'})
-										.setClassToggle("#section-06-link", "inactive-link") 
+										.setClassToggle("#section-08d-link", "inactive-link") 
 										// add indicators (requires plugin) .addIndicators() 
 										.addTo(controller);
+
+						new ScrollMagic.Scene({triggerElement: "#section-star-zitate", triggerHook: 'onCenter'})
+										.setClassToggle("#section-star-zitate-link", "active-link") 
+										// add indicators (requires plugin).addIndicators() 
+										.addTo(controller);										
+						new ScrollMagic.Scene({triggerElement: "#section-09", triggerHook: 'onCenter'})
+										.setClassToggle("#section-star-zitate-link", "inactive-link") 
+										// add indicators (requires plugin) .addIndicators() 
+										.addTo(controller);
+
+										
+										
 						new ScrollMagic.Scene({triggerElement: "#section-10", triggerHook: 'onCenter'})
 										.setClassToggle("#section-10-link", "active-link") 
 										// add indicators (requires plugin).addIndicators() 
